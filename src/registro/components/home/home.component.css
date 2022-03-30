@@ -1,0 +1,26 @@
+h1{
+    padding: 5%;
+    font-family:sans-serif;
+    color: rgb(29, 29, 87);
+    font-size:35px;
+}
+p{
+    font-size: medium;
+    color: rgb(49, 33, 90);
+}
+.mat-raised-button {
+    background-color: rgb(255, 174, 0);
+    color: rgb(49, 33, 90);
+    font-family:sans-serif;
+    font-size: large;
+}
+.centrado{
+    text-align: center;
+    background-color: rgb(253, 255, 247);
+    border-color: aqua;
+}
+*{
+    background-color: rgb(236, 235, 235);
+}
+
+

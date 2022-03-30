@@ -1,0 +1,17 @@
+p, ul{
+    font-size: medium;
+    background-color: rgb(209, 219, 238);
+    padding: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+li{
+    font-size: medium;
+    background-color: rgb(209, 219, 238);
+}
+h2{
+    text-align: center;
+}
+section{
+    background-color: rgb(236, 235, 235);
+}

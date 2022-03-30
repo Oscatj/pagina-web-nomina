@@ -1,0 +1,54 @@
+<section>
+<mat-grid-list cols="2" rowHeight="2:1">
+    <br>
+    <mat-grid-tile>
+      <iframe src="https://www.google.com/maps/d/embed?mid=11Ym6pWPEeTNJ9jNyG6vqnO7doZLC8tOb&hl=es-419&ehbc=2E312F" width="10000" height="480"></iframe>
+    </mat-grid-tile>
+    <br>
+    <mat-grid-tile class="estilos">
+      <section>
+      <h3>Información</h3>
+      <hr>
+      <p>Direccion: Calle Juan Pablo Duarte, no.23, casi esquina Jonh F. Kenedy, frente a Sambill</p>
+      <hr>
+      <p>Telefono: 829-902-2020</p>
+      <hr>
+      <p>Redes sociales:</p>
+    <a class ="imgFace" href="https://www.instagram.com/">
+      <img class = "imgFace" src="https://icones.pro/wp-content/uploads/2021/02/facebook-icones.png" alt="facebook"> Sistema de Nómina </a>
+      <br>
+    <a class ="imgInst" href="https://www.instagram.com/">
+        <img class = "imgInst" src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-11.png" alt="facebook"> @consSN-99</a>
+    
+    </section>
+    
+ 
+
+    </mat-grid-tile>
+  </mat-grid-list>
+<section class="formulario">
+    <h1 class="center">Formulario de contacto</h1>
+    <hr>
+    <p class="center">¿Tienes alguna inquietud? ¡Cuentanos!</p> 
+<form>
+    <div class="mb-4">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div>
+    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<br>
+  <div class="mb-4">
+    <label for="exampleInputPassword1" class="form-label">Asunto</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+      <div class="mb-3">
+        <label for="exampleFormImputTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <button type="submit" class="btn btn-primary" [routerLink]="['/panel']">Enviar</button>
+    </form>
+</section>
+</section>

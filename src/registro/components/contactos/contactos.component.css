@@ -1,0 +1,36 @@
+section{
+    background-color: rgb(236, 235, 235);
+}
+.center{
+    text-align: center;
+    text-decoration: transparent;
+}
+.formulario{
+    color: rgb(12, 54, 92);
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+}
+button{
+    color: rgb(253, 254, 255);
+    border-color: rgb(80, 142, 170);
+    background-color:rgb(36, 74, 124);
+    font-size: large;
+    display: flex;
+    margin: auto;
+}
+.imgFace{
+    width:17px;
+    color:rgb(26, 86, 138);
+    text-decoration-color: transparent;
+    transform: translate(20%);
+}
+
+.imgInst{
+    width:15px;
+    color:rgb(26, 86, 138);
+    text-decoration-color: transparent;
+    transform: translate(20%);
+}
+iframe{
+    margin: 3%;
+}
