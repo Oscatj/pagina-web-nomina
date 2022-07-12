@@ -21,7 +21,6 @@ import { IndexComponent } from './components/index/index.component';
 import { HomeComponent } from './components/home/home.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { PreciosComponent } from './components/precios/precios.component';
-import { PanelUsuarioComponent } from './components/panel-usuario/panel-usuario.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { InicioComponent } from './components/opciones_menu/inicio/inicio.component';
 import { EmpRegistrarseComponent } from './components/opciones_menu/empleados/emp-registrarse/emp-registrarse.component';
@@ -38,7 +37,6 @@ import { InactivosEmpleadosComponent } from './components/opciones_menu/empleado
     HomeComponent,
     NosotrosComponent,
     PreciosComponent,
-    PanelUsuarioComponent,
     ContactosComponent,
     InicioComponent,
     EmpRegistrarseComponent,
